@@ -1,0 +1,14 @@
+=== ESTRUTURA DO PROJETO ===
+./.coverage
+./.github/workflows/testes.yml
+./.gitignore
+./README.md
+./app/__init__.py
+./app/__pycache__/__init__.cpython-312.pyc
+./app/__pycache__/calculadora.cpython-312.pyc
+./app/calculadora.py
+./requeriments.txt
+./tests/__init__.py
+./tests/__pycache__/__init__.cpython-312.pyc
+./tests/__pycache__/test_calculadora.cpython-312-pytest-9.1.1.pyc
+./tests/test_calculadora.py

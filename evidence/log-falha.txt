@@ -1,0 +1,7 @@
+=== LOG DA FALHA ===
+tests/test_calculadora.py::test_somar FAILED                             [ 25%]
+__________________________________ test_somar __________________________________
+    def test_somar():
+>       assert resultado == 5
+E       assert -1 == 5
+FAILED tests/test_calculadora.py::test_somar - assert -1 == 5

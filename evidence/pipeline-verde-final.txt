@@ -1,0 +1,23 @@
+=== PIPELINE VERDE FINAL ===
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /home/ubuntu/work/Aula-Automatiza-o-Testes-main/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/ubuntu/work/Aula-Automatiza-o-Testes-main
+plugins: cov-7.1.0
+collecting ... collected 4 items
+
+tests/test_calculadora.py::test_somar PASSED                             [ 25%]
+tests/test_calculadora.py::test_subtrair PASSED                          [ 50%]
+tests/test_calculadora.py::test_calcular_desconto PASSED                 [ 75%]
+tests/test_calculadora.py::test_multiplicar PASSED                       [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+
+Name                 Stmts   Miss  Cover   Missing
+--------------------------------------------------
+app/__init__.py          0      0   100%
+app/calculadora.py       9      0   100%
+--------------------------------------------------
+TOTAL                    9      0   100%
+============================== 4 passed in 0.06s ===============================
