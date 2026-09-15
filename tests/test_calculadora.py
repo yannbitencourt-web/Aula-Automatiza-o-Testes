@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from app.calculadora import (
     somar,
     subtrair,
@@ -24,3 +25,22 @@ def test_calcular_desconto():
 def test_multiplicar():
     resultado = multiplicar(4, 5)
     assert resultado == 20
+=======
+from app.calculadora import(
+    somar,
+    subtrair,
+    calcular_desconto
+)
+
+def test_somar():
+    resultado = somar(2,3)
+    assert resultado == 5
+    
+def test_subtrair():
+    resultado = subtrair(10,4)
+    assert resultado == 6
+        
+def test_calcular_desconto():
+    resultado = calcular_desconto(100,10)
+    assert resultado == 90
+>>>>>>> 42f727fab38e52a49b25f5b1412f890954e08f30
